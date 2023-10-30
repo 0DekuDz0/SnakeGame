@@ -1,0 +1,67 @@
+@font-face {
+    font-family: ThatleahFat;
+    src: url(ThaleahFat.ttf);
+}
+
+*{
+    margin: 0;
+    padding: O;
+    box-sizing: border-box;
+    font-family: ThatleahFat;
+    flex-wrap: nowrap;
+}
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5dab9
+;
+}
+
+.game-table{
+    background-color: #738e85;
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.info-game{
+    width: 100%;
+    height: 5%;
+    background-color: #2e4252;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.party-table{
+    width: 100%;
+    height: 95%;
+    display: grid;
+    grid-template: repeat(30, 1fr)/repeat(30, 1fr);
+}
+
+.food{
+    width: calc(500px/30);
+    height: calc(600px/30);
+    background-color: red;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.snake{
+    width: calc(500px/30);
+    height: calc(600px/30);
+    background-color: black;
+}
+
